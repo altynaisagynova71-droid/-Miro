@@ -1,0 +1,17 @@
+#hero-three {
+  .container {
+    .Hero-three {
+      .rod{
+        padding-top: 100px;
+        display: flex;
+        justify-content:space-between;
+        .one{
+          padding-top: 75px;
+          display: flex;
+          flex-direction: column;
+          gap: 30px;
+        }
+      }
+    }
+  }
+}

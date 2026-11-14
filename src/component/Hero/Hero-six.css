@@ -1,0 +1,52 @@
+#hero-six {
+  background-color: #ffd02f;
+
+  .container {
+    .Hero-six {
+      .rod {
+        min-height: 720px;
+        padding: 90px 20px 80px;
+        color: #050038;
+        text-align: center;
+
+        .one {
+          h1 {
+            margin: 0;
+            font-size: 38px;
+            font-weight: 400;
+            line-height: 1.1;
+          }
+
+          a {
+            display: inline-block;
+            margin-top: 20px;
+            color: #050038;
+            font-size: 14px;
+            text-decoration: underline;
+          }
+        }
+
+        .two {
+          display: grid;
+          grid-template-columns: repeat(3, 1fr);
+          gap: 90px 45px;
+          margin-top: 90px;
+
+          div {
+            h2 {
+              margin-bottom: 18px;
+              font-size: 48px;
+            }
+
+            p {
+              max-width: 270px;
+              margin: 0 auto;
+              font-size: 14px;
+              line-height: 1.35;
+            }
+          }
+        }
+      }
+    }
+  }
+}

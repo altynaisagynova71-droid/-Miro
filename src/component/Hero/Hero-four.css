@@ -1,0 +1,79 @@
+#hero-four {
+  .container {
+    .Hero-four {
+      padding-top: 70px;
+
+      h1 {
+        color: #050038;
+        font-size: 48px;
+        font-weight: 400;
+        line-height: 1.2;
+      }
+
+      .tabs {
+        display: flex;
+        gap: 8px;
+        margin-top: 32px;
+        overflow-x: auto;
+
+        button {
+
+          padding: 14px 18px;
+          border: 1px solid #e6e6e6;
+          border-radius: 28px;
+          background: white;
+          color: #050038;
+          font-size: 14px;
+
+          .active {
+            border-color: #f0f1fa;
+            background: #f0f1fa;
+          }
+        }
+      }
+
+      .content {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 50px;
+        margin-top: 28px;
+
+        .text {
+          width: 290px;
+          flex-shrink: 0;
+          color: #050038;
+
+          h2 {
+            margin-bottom: 26px;
+            font-size: 18px;
+            font-weight: 400;
+          }
+
+          p {
+            font-size: 18px;
+            line-height: 1.35;
+          }
+
+          a {
+            display: inline-block;
+            margin-top: 32px;
+            color: #4262ff;
+            font-size: 18px;
+          }
+        }
+
+        .image {
+          flex: 1;
+          text-align: right;
+
+          img {
+            width: 100%;
+            max-width: 700px;
+            display: inline-block;
+          }
+        }
+      }
+    }
+  }
+}

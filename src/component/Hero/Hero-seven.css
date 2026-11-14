@@ -1,0 +1,68 @@
+#hero-seven {
+  .container {
+    .Hero-seven {
+      .rod {
+        padding-top: 30px;
+
+        .one {
+          text-align: center;
+
+          h1 {
+            color: #050038;
+            font-size: 38px;
+            font-weight: 400;
+          }
+
+          a {
+            display: inline-block;
+            margin-top: 22px;
+            padding: 10px 22px;
+            border: 1px solid #4262ff;
+            border-radius: 24px;
+            color: #4262ff;
+          }
+        }
+
+        .two {
+          display: flex;
+          justify-content: space-between;
+          gap: 55px;
+          padding: 70px 40px;
+
+          div {
+            width: 30%;
+            color: #050038;
+
+            h2 {
+              margin-bottom: 25px;
+              font-size: 36px;
+            }
+
+            p {
+              min-height: 195px;
+              color: #66647d;
+              font-size: 15px;
+              line-height: 1.45;
+            }
+
+            img {
+              width: 39px;
+              height: 39px;
+              margin-top: 25px;
+              margin-right: 14px;
+              vertical-align: middle;
+            }
+
+            span {
+              display: inline-block;
+              color: #66647d;
+              font-size: 12px;
+              line-height: 1.4;
+              vertical-align: middle;
+            }
+          }
+        }
+      }
+    }
+  }
+}

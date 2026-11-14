@@ -1,0 +1,37 @@
+#hero-one{
+    .container{
+        .Hero-one{
+            .rod{
+                display: flex;
+                justify-content: space-between;
+                padding-top: 50px;
+                .one{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 30px;
+                    input{
+                        width: 440px;
+                        height: 48px;
+                        border-radius: 32px;
+                    }
+                    button{
+                        width: 440px;
+                        height: 48px;
+                        border-radius: 32px;
+                        background-color: #4262FF; 
+                        color: white; 
+                        border: none;                     
+                    }
+                    .lilone{
+                        display: flex;
+                        gap: 50px;
+                        h6{
+                            padding-top: 10 px;
+                        }
+                    }
+
+                }
+            }
+        }
+    }
+}
